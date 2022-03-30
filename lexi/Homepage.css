@@ -1,0 +1,92 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4EBD0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 17px;
+}
+
+ul li
+{
+    display: inline-flex;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #D6AD60;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.topnav a:hover
+{
+    background-color: #dac586;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+}
+
+.parallax
+{
+    background-image: url("https://envato-shoebox-0.imgix.net/30a7/0c62-4024-4706-bf14-5700c8f6af74/C12A0520.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=783e932aa0d1913c92b1cd349e62ea24");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    background-color: #F4EBD0;
+    font-size: x-large;
+    height: 100px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.container p
+{
+    float: center;
+}
+
+#topbutton
+{
+    position: fixed;
+    width: 150px;
+    height: 130px;
+    border: none;
+    font-size: xx-large;
+    background-color: #D6AD60;
+    color: brown;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+
