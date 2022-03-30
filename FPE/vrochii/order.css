@@ -1,0 +1,137 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4EBD0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 17px;
+}
+
+ul li
+{
+    display: inline-flex;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #D6AD60;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.topnav a:hover
+{
+    background-color: #dac586;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+}
+
+#topbutton
+{
+    position: fixed;
+    width: 150px;
+    height: 130px;
+    border: none;
+    font-size: xx-large;
+    background-color: #D6AD60;
+    color: brown;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+}
+
+form
+{
+    background-color: #6b5f49;
+    padding-top: 100px;
+    border: 3px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+label
+{
+    font-size: x-large;
+    margin-left: 40px;
+    color: white;
+}
+
+input
+{
+    background-color: white;
+    margin-left: 40px;
+    border-color: #b8797e;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#submit
+{
+    width: 100px;
+    height: 50px;
+    background-color: #B68D40;
+    border: 3px solid #122620;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#submit:hover
+{
+    cursor: pointer;
+    background-color: #122620;
+    color: white;
+}
+
+#quantity
+{
+    width: 30px;
+}
+
+.messasge
+{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+}
+
+.container 
+{
+    width: 100%;
+}
+

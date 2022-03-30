@@ -1,0 +1,101 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4EBD0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 17px;
+}
+
+ul li
+{
+    display: inline-flex;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #D6AD60;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.topnav a:hover
+{
+    background-color: #dac586;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+}
+
+.parallax
+{
+    background-image: url("https://media.istockphoto.com/photos/jasmine-tea-on-a-blue-wooden-background-relaxing-jasmine-tea-aromatic-picture-id1161040553?k=20&m=1161040553&s=612x612&w=0&h=Nn7vNOMDxgCFjSo3CRFwt_0pFQlaxGSdDgaVPh9ipMY=");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    background-color: #F4EBD0;
+}
+
+.jasmine p
+{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.ogtea p
+{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.green_tea p
+{  
+   font-weight: 700;
+   font-size: x-large; 
+}
+
+#topbutton
+{
+    position: fixed;
+    width: 150px;
+    height: 130px;
+    border: none;
+    font-size: xx-large;
+    background-color: #D6AD60;
+    color: brown;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+

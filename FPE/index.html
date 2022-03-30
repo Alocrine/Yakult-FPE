@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Yakult</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Yakult</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tables -->
+    <section class="m-5" id="tables">
+      <div class="container  p-3 mb-2 bg-primary text-white">
+        <!-- Good Vibes Form -->
+        <h1 class="font-weight-bold text-center text-black p-2">Good Vibes Form</h1>
+          <div class="p-3 mb-2 bg-light bg-opacity-75 text-black">
+            <form>
+              <fieldset>
+                <legend class="text-center">Tell us something positive that happened to you today.</legend>
+                <div class="form-group">
+                  <label for="inputName" class="form-label mt-1">Name</label>
+                  <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail" class="form-label mt-4">Email address</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="inputScale" class="form-label mt-4">On the scale of 1-10, how good was it?</label>
+                  <select class="form-select" id="inputScale">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inputScale2" class="form-label mt-4">Where did it happen?</label>
+                  <select class="form-select" id="inputScale2">
+                    <option>At home</option>
+                    <option>At work</option>
+                    <option>At school</option>
+                  </select>
+                </div>
+                <fieldset class="form-group">
+                  <legend class="mt-4">At what time of day did it happen?</legend>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                        Morning
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Afternoon
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+                        Evening
+                    </label>
+                  </div>
+                </fieldset>
+                <fieldset class="form-group">
+                  <legend class="mt-4">What emotions did you experience?(Select all that apply)</legend>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Excited
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Humbled
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Elated
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Loved
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Enthusiastic
+                    </label>
+                  </div>
+                </fieldset>
+                <div class="form-group">
+                  <label for="exampleTextarea" class="form-label mt-4">Please describe your positive experience.</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Enter your experience here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-4">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+    </section>
+  
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Yakult 2022</div></footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
