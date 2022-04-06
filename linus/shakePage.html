@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake</title>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" href="design/style.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="navbar">
+            <a href="index.html" class="active"><i class="fa-solid fa-house">&nbsp;</i>Home</a>
+            <a href="order.html" class="inactive"><i class="fa-solid fa-note-sticky">&nbsp;</i>Order</a>
+            <a href="result.html" class="inactive"><i class="fa-solid fa-file-lines">&nbsp</i>Result</a>
+        </div>
+        <br>
+
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
+
+            var navbar = document.getElementById("navbar");
+
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+
+        <table style="width: 50%; text-align: left;" id="shake">
+            <tr>
+                <th colspan="5">
+                    <h2 style="text-align: center;">
+                        Shake
+                    </h2>
+                    <p style="text-align: center;">
+                        A milkshake is a sweet drink made by blending milk, ice cream, and flavorings or sweeteners such
+                        as
+                        butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet,
+                        cold
+                        mixture.
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <td><img src="design/milk_shake.png" alt=""></td>
+                <td><img src="design//chocolate_shake.png" alt=""></td>
+                <td><img src="design/vanilla_shake.png" alt=""></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td class="about">
+                    <h1>Milk Shake</h1>
+                    <p>A milkshake is a sweet drink made by blending milk, ice cream, and flavorings or sweeteners such
+                        as
+                        butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet,
+                        cold
+                        mixture.</p>
+                </td>
+                <td class="about">
+                    <h1>Chocolate Shake</h1>
+                    <p>Chocolate milk is made with milk and chocolate syrup (usually made with cocoa powder, sugar, and
+                        a
+                        bit of water) and a chocolate milkshake is made with milk, chocolate syrup, and ice cream, so
+                        it's
+                        much richer, thicker, and frostier.</p>
+                </td>
+                <td class="about">
+                    <h1>Vanilla Shake</h1>
+                    <p>Vanilla Milkshake, world's favorite milkshake, is a smooth and creamy concoction of vanilla ice
+                        cream, milk, vanilla extract topped up with whipped cream and chocolate vermicelli for
+                        irresistible
+                        looks.</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+
+    </body>
+
+</html>

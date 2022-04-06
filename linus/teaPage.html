@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea</title>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" href="design/style.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="navbar">
+            <a href="index.html" class="active"><i class="fa-solid fa-house">&nbsp;</i>Home</a>
+            <a href="order.html" class="inactive"><i class="fa-solid fa-note-sticky">&nbsp;</i>Order</a>
+            <a href="result.html" class="inactive"><i class="fa-solid fa-file-lines">&nbsp</i>Result</a>
+        </div>
+        <br>
+
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
+
+            var navbar = document.getElementById("navbar");
+
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+        <table style="width: 50%; text-align: left;" id="tea">
+            <tr>
+                <th colspan="5">
+                    <h2 style="text-align: center;">
+                        Tea
+                    </h2>
+                    <p style="text-align: center;">
+                        Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves
+                        of
+                        Camellia sinensis, an evergreen shrub native to China as well as other East and Southeast Asian
+                        countries. After water, it is the most widely consumed drink in the world.
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="design/milk_tea.png" alt="">
+                </td>
+                <td>
+                    <img src="design/lemon_tea.png" alt="">
+                </td>
+                <td>
+                    <img src="design/macha_tea.png"">
+        </td>
+    </tr>
+    <tr style=" text-align: center;">
+                <td class="about">
+                    <h1>Milk Tea</h1>
+                    <p>It is a combination of black tea, milk, a sweetener of some sort, and tapioca pearls.</p>
+                </td>
+                <td class="about">
+                    <h1>Lemon Tea</h1>
+                    <p>Lemon tea is a low-sugar, low-calorie way to add a range of vitamins and minerals to your diet.
+                        Grating lemon zest into your tea also adds the peel's limonene.</p>
+                </td>
+                <td class="about">
+                    <h1>Macha Tea</h1>
+                    <p>Matcha, like other green teas, contains a class of antioxidants called catechins. ... Studies
+                        have
+                        linked green tea to a variety of health benefits, like helping to prevent heart disease, type 2
+                        diabetes and cancer, and even encouraging weight loss.</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+    </body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" href="design/style.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="navbar">
+            <a href="index.html" class="active"><i class="fa-solid fa-house">&nbsp;</i>Home</a>
+            <a href="order.html" class="inactive"><i class="fa-solid fa-note-sticky">&nbsp;</i>Order</a>
+            <a href="result.html" class="inactive"><i class="fa-solid fa-file-lines">&nbsp</i>Result</a>
+        </div>
+
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
+
+            var navbar = document.getElementById("navbar");
+
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+
+        <table style="width: 50%; text-align: left;" id="coffee">
+            <tr>
+                <th colspan="5">
+                    <h2 style="text-align: center;">
+                        Coffee
+                    </h2>
+                    <p style="text-align: center;">Coffee is a brewed drink prepared from roasted coffee beans, the
+                        seeds of
+                        berries from certain
+                        flowering plants in the Coffea genus. From the coffee fruit, the seeds are separated to produce
+                        a
+                        stable, raw product: unroasted green coffee.</p>
+                </th>
+            </tr>
+            <tr>
+                <td><img src="design/americano.png" alt=""></td>
+                <td><img src="design/espresso.png" alt=""></td>
+                <td><img src="design/latte.jpg" alt="">
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td class="about">
+                    <h1>Americano Coffee</h1>
+                    <p>Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving
+                        it
+                        a similar strength to, but different flavor from, traditionally brewed coffee.</p>
+                </td>
+                <td class="about">
+                    <h1>Espresso Coffee</h1>
+                    <p>Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling
+                        water is forced under 9–10 bars of pressure through finely-ground coffee beans</p>
+                </td>
+                <td class="about">
+                    <h1>Latte Coffee</h1>
+                    <p>Caffè latte, often shortened to just latte in English, is a coffee drink of Italian origin made
+                        with
+                        espresso and steamed milk.</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+    </body>
+
+</html>

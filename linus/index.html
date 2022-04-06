@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="design/style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="index.html" class="active"><i class="fa-solid fa-house">&nbsp;</i>Home</a>
+        <a href="order.html" class="inactive"><i class="fa-solid fa-note-sticky">&nbsp;</i>Order</a>
+        <a href="result.html" class="inactive"><i class="fa-solid fa-file-lines">&nbsp</i>Result</a>
+    </div>
+    <br>
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <div style="padding-top: 50px; text-align: center;">
+        <table style="width: 50%;" id="top">
+            <tr>
+                <th>
+                    <h3>
+                        <a href="#coffee"><i class="fa-solid fa-mug-saucer">&nbsp;</i>COFFEE</a>
+                        |
+                        <a href="#tea"><i class="fa-solid fa-mug-hot"></i>&nbsp;TEA</a>
+                        |
+                        <a href="#shake"><i class="fa-solid fa-whiskey-glass"></i>&nbsp;SHAKE</a>
+                        <!-- |
+                    <a href="order.html"><strong>ORDER</strong></a> -->
+                    </h3>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+
+    <!-- Sticky navigation bar -->
+
+    <div class="container">
+        <!-- COFFEE SECTION -->
+        <table style="width: 50%; text-align: left;" id="coffee">
+            <tr>
+                <th colspan="5">
+                    <h2>
+                        &nbsp;
+                        <a href="coffeePage.html">Coffee</a>
+                    </h2>
+                </th>
+            </tr>
+            <tr>
+                <td><img src="design/americano.png" alt=""></td>
+                <td><img src="design/espresso.png" alt=""></td>
+                <td><img src="design/latte.jpg" alt="">
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td class="about">
+                    <h1>Americano Coffee</h1>
+                    <p>Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving
+                        it
+                        a similar strength to, but different flavor from, traditionally brewed coffee.</p>
+                </td>
+                <td class="about">
+                    <h1>Espresso Coffee</h1>
+                    <p>Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling
+                        water is forced under 9–10 bars of pressure through finely-ground coffee beans</p>
+                </td>
+                <td class="about">
+                    <h1>Latte Coffee</h1>
+                    <p>Caffè latte, often shortened to just latte in English, is a coffee drink of Italian origin made
+                        with
+                        espresso and steamed milk.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <!-- TEA SECTION -->
+    <div class="container">
+        <table style="width: 50%; text-align: left;" id="tea">
+            <tr>
+                <th colspan="5">
+                    <h2>
+                        &nbsp;
+                        <a href="teaPage.html">Tea</a>
+                    </h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="design/milk_tea.png" alt="">
+                </td>
+                <td>
+                    <img src="design/lemon_tea.png" alt="">
+                </td>
+                <td>
+                    <img src="design/macha_tea.png"">
+        </td>
+    </tr>
+    <tr style=" text-align: center;">
+                <td class="about">
+                    <h1>Milk Tea</h1>
+                    <p>It is a combination of black tea, milk, a sweetener of some sort, and tapioca pearls.</p>
+                </td>
+                <td class="about">
+                    <h1>Lemon Tea</h1>
+                    <p>Lemon tea is a low-sugar, low-calorie way to add a range of vitamins and minerals to your diet.
+                        Grating lemon zest into your tea also adds the peel's limonene.</p>
+                </td>
+                <td class="about">
+                    <h1>Macha Tea</h1>
+                    <p>Matcha, like other green teas, contains a class of antioxidants called catechins. ... Studies
+                        have
+                        linked green tea to a variety of health benefits, like helping to prevent heart disease, type 2
+                        diabetes and cancer, and even encouraging weight loss.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="container">
+        <!-- SHAKE SECTION -->
+        <table style="width: 50%; text-align: left;" id="shake">
+            <tr>
+                <th colspan="5">
+                    <h2>
+                        &nbsp;
+                        <a href="shakePage.html">Shake</a>
+                    </h2>
+                </th>
+            </tr>
+            <tr>
+                <td><img src="design/milk_shake.png" alt=""></td>
+                <td><img src="design//chocolate_shake.png" alt=""></td>
+                <td><img src="design/vanilla_shake.png" alt=""></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td class="about">
+                    <h1>Milk Shake</h1>
+                    <p>A milkshake is a sweet drink made by blending milk, ice cream, and flavorings or sweeteners such
+                        as
+                        butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet,
+                        cold
+                        mixture.</p>
+                </td>
+                <td class="about">
+                    <h1>Chocolate Shake</h1>
+                    <p>Chocolate milk is made with milk and chocolate syrup (usually made with cocoa powder, sugar, and
+                        a
+                        bit of water) and a chocolate milkshake is made with milk, chocolate syrup, and ice cream, so
+                        it's
+                        much richer, thicker, and frostier.</p>
+                </td>
+                <td class="about">
+                    <h1>Vanilla Shake</h1>
+                    <p>Vanilla Milkshake, world's favorite milkshake, is a smooth and creamy concoction of vanilla ice
+                        cream, milk, vanilla extract topped up with whipped cream and chocolate vermicelli for
+                        irresistible
+                        looks.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
