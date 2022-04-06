@@ -1,247 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Yakult</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/bootstrap.css" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+
+<body>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Yakult</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <i class="fas fa-bars"></i>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-              </div>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yakult</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-      </div>
     </nav>
 
     <!-- Tables -->
     <section class="m-5" id="tables1">
-      <div class="container p-3 mb-2 bg-primary">
-        <!-- Good Vibes Form -->
-        <h1 class="font-weight-bold text-center text-black p-2">Good Vibes Form</h1>
-         
+        <div class="container p-3 mb-2 bg-primary">
+            <!-- Good Vibes Form -->
+            <h1 class="font-weight-bold text-center text-black p-2">Good Vibes Form</h1>
+
             <div class="row justify-content-center">
-              <div class="w-50 px-5 bg-light rounded-3 text-black">
-                <table class="text-black table table-borderless table-responsive"> 
-                <h5 class="text-center p-md-4 mt-3">Tell us something positive that happened to you today.</h5>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">Name</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter your name">
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">Email</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">On the scale of 1-10, how good was it?</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <select class="form-select" id="inputScale">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">Where did it happen?</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <select class="form-select" id="inputScale2">
-                        <option>At home</option>
-                        <option>At work</option>
-                        <option>At school</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">At what time of day did it happen?</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <div class="form-check">
-                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios" value="option1" checked="">
-                        <p>Morning</p>
-                      </div>
-                      <div class="form-check">
-                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios" value="option2">
-                        <p>Afternoon</p>
-                      </div>
-                      <div class="form-check">
-                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios" value="option3">
-                        <p>Evening</p>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">What emotions did you experience?(Select all that apply)</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Excited
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Humbled
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Elated
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Loved
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Enthusiastic
-                        </label>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="row">
-                    <td class="col-sm-6">
-                      <p class="form-label mt-1 text-end">Please describe your positive experience.</p>
-                    </td>
-                    <td class="col-sm-6">
-                      <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Enter your experience here..."></textarea>
-                    </td>
-                  </tr>
-                  <tr class="row ">
-                    <td class="col-sm-4"></td>
-                    <td class="col-sm-4">
-                      <button type="submit" class="btn btn-primary mt-2 mx-5">Submit</button>
-                    <td>
-                    
-                  </tr>
-                </table>
-              </div>
+                <div class="w-50 px-5 bg-light rounded-3 text-black">
+                    <table class="text-black table table-borderless table-responsive">
+                        <h5 class="text-center p-md-4 mt-3">Tell us something positive that happened to you today.</h5>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">Name</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp"
+                                    placeholder="Enter your name">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">Email</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                                    placeholder="Enter your email">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">On the scale of 1-10, how good was it?</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <select class="form-select" id="inputScale">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">Where did it happen?</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <select class="form-select" id="inputScale2">
+                                    <option>At home</option>
+                                    <option>At work</option>
+                                    <option>At school</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">At what time of day did it happen?</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios"
+                                        value="option1" checked="">
+                                    <p>Morning</p>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios"
+                                        value="option2">
+                                    <p>Afternoon</p>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios"
+                                        value="option3">
+                                    <p>Evening</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">What emotions did you experience?(Select all that
+                                    apply)</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Excited
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Humbled
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Elated
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Loved
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Enthusiastic
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-sm-6">
+                                <p class="form-label mt-1 text-end">Please describe your positive experience.</p>
+                            </td>
+                            <td class="col-sm-6">
+                                <textarea class="form-control" id="exampleTextarea" rows="3"
+                                    placeholder="Enter your experience here..."></textarea>
+                            </td>
+                        </tr>
+                        <tr class="row ">
+                            <td class="col-sm-4"></td>
+                            <td class="col-sm-4">
+                                <button type="submit" class="btn btn-primary mt-2 mx-5">Submit</button>
+                            <td>
+
+                        </tr>
+                    </table>
+                </div>
             </div>
-      
-      </div> 
+
+        </div>
     </section>
     <section class="m-5" id="tables2">
-      <div class="w-50 container">
-        <table class="p-5 th-lg table table-bordered">
-            <tr class="table-dark row">
-              <th class="col-sm-7">Invoice #123456789</th>
-              <th class="col-sm-5">14 January 2025</th>
-            </tr>
-          <tr class="row">
-            <td class="col-sm-6"><b>Pay to:</b><br>
-              Acme Billing Co.<br>
-              123 Main St.<br>
-              Cityville, NA 12345</td>
-            <td class="col-sm-6"><b>Customer:</b><br>
-              John Smith<br>
-              321 Willow Way<br>
-              Southeast Northwestershire, MA 54321/td>
-          </tr>
-          <tr class="table-dark row">
-            <th class="col-sm">Name / Description</th>
-            <th class="col-sm">Qty.</th>
-            <th class="col-sm">@</th>
-            <th class="col-sm">Cost</th>
-          </tr>
-          <tr class="row">
-            <td class="col-sm">Paperclips</td>
-            <td class="col-sm">100</td>
-            <td class="col-sm">0.01</td>
-            <td class="col-sm">10.00</td>
-          </tr>
-          <tr class="row">
-            <td class="col-sm">Staples (box)</td>
-            <td class="col-sm">100</td>
-            <td class="col-sm">1.00</td>
-            <td class="col-sm">100.00</td>
-          </tr>
-          <tr class="row">
-            <td class="table-dark col-sm-7">Subtotal</td>
-            <td class="col-sm-5">110.00</td>
-          </tr>
-          <tr class="row">
-            <td class="table-dark col-sm-6">Tax</td>
-            <td class="col-sm-3">8%</td>
-            <td class="col-sm-3">8.80</td>
-          </tr>
-          <tr class="row">
-            <td class="table-dark col-sm-7">Grand Total</td>
-            <td class="col-sm-5">$ 118.80</td>
-          </tr>
-        </table>
-      </div>
-      </div>
+        <div class="w-50 container">
+            <table class="p-5 th-lg table table-bordered">
+                <tr class="table-dark row">
+                    <th class="col-sm-7">Invoice #123456789</th>
+                    <th class="col-sm-5">14 January 2025</th>
+                </tr>
+                <tr class="row">
+                    <td class="col-sm-6"><b>Pay to:</b><br>
+                        Acme Billing Co.<br>
+                        123 Main St.<br>
+                        Cityville, NA 12345</td>
+                    <td class="col-sm-6"><b>Customer:</b><br>
+                        John Smith<br>
+                        321 Willow Way<br>
+                        Southeast Northwestershire, MA 54321/td>
+                </tr>
+                <tr class="table-dark row">
+                    <th class="col-sm">Name / Description</th>
+                    <th class="col-sm">Qty.</th>
+                    <th class="col-sm">@</th>
+                    <th class="col-sm">Cost</th>
+                </tr>
+                <tr class="row">
+                    <td class="col-sm">Paperclips</td>
+                    <td class="col-sm">100</td>
+                    <td class="col-sm">0.01</td>
+                    <td class="col-sm">10.00</td>
+                </tr>
+                <tr class="row">
+                    <td class="col-sm">Staples (box)</td>
+                    <td class="col-sm">100</td>
+                    <td class="col-sm">1.00</td>
+                    <td class="col-sm">100.00</td>
+                </tr>
+                <tr class="row">
+                    <td class="table-dark col-sm-7">Subtotal</td>
+                    <td class="col-sm-5">110.00</td>
+                </tr>
+                <tr class="row">
+                    <td class="table-dark col-sm-6">Tax</td>
+                    <td class="col-sm-3">8%</td>
+                    <td class="col-sm-3">8.80</td>
+                </tr>
+                <tr class="row">
+                    <td class="table-dark col-sm-7">Grand Total</td>
+                    <td class="col-sm-5">$ 118.80</td>
+                </tr>
+            </table>
+        </div>
+        </div>
     </section>
-  
+
+    <section class="m-5" id="coloredTable">
+        <table cellspacing=0 cellpadding=0 width=1200 height=120>
+            <tr>
+                <td width=100 style="background-color: darkred;"></td>
+                <td style="background-color: red;"></td>
+                <td style="background-color: pink;"></td>
+            </tr>
+            <tr>
+                <td width=100 style="background-color: darkblue;"></td>
+                <td style="background-color: blue;"></td>
+                <td style="background-color: lightblue;"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="m-5" id="Forms">
+
+        <!-- form -->
+        <div class="containers">
+            <form action="">
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="ProjectName">Project Name</label>
+                    <input type="text" class="form-control" id="ProjectName" placeholder="project name">
+                </div>
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="AssignedTo">Assigned To</label>
+                    <select name="" id="AssignedTo" class="form-control">
+                        <option value="">Erin</option>
+                        <option value="">Lexi</option>
+                        <option value="">Linus</option>
+                        <option value="">Rainer</option>
+                    </select>
+                </div>
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="StartDate">Start Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="EndDate">End Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="Priority">Priority</label>
+                    <br>
+                    <input type="radio" name="priorityRadio">
+                    <label for="">High</label>
+                    <input type="radio" name="priorityRadio">
+                    <label for="">Average</label>
+                    <input type="radio" name="priorityRadio">
+                    <label for="">Low</label>
+                </div>
+                <div class="form-group" style="padding-top: 10px; padding-bottom: 10px;">
+                    <label for="description">Description</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="button" class="btn btn-primary">Clear</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Yakult 2022</div></footer>
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; Yakult 2022</div>
+    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+</body>
+
 </html>
