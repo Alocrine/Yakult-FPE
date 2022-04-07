@@ -11346,7 +11346,7 @@ textarea.form-control-lg {
 .alert-dark {
   background-color: #303030;
 }
-td{
+.td{
     border: 1px solid rgb(114, 114, 114);
     width: 20;
     height: 15;
@@ -11363,7 +11363,7 @@ td{
     padding-right: 10px;
     padding-bottom: 10px;
 }
-label{
+.form2-label{
     font-weight: bold;
     color: black;
 }
