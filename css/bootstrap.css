@@ -11367,3 +11367,16 @@ textarea.form-control-lg {
     font-weight: bold;
     color: black;
 }
+.subject-th{
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+}
+.header-subject-th{
+    color: black;
+    background-color: grey;
+}
+#subjectTable{
+    padding-left: 539px;
+    text-align: center;
+}
