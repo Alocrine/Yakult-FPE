@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="order.css">
+        <script src="https://kit.fontawesome.com/95cb6fc908.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="topnav">
+            <ul>
+                <li>
+                    <a href="Drinks.html"><i class="fa-solid fa-house-chimney" style="color: chocolate;"> Home</i></a>
+                </li>
+                <li>
+                    <a href="coffee.html"><i class="fa-solid fa-mug-hot" style="color: chocolate;"> Coffee</i></a>
+                </li>
+                <li>
+                    <a href="tea.html"><i class="fa-solid fa-mug-saucer" style="color: chocolate;"> Tea</i></a>
+                </li>
+                <li>
+                    <a href="shake.html"><i class="fa-solid fa-martini-glass-citrus" style="color: chocolate;"> Shake</i></a>
+                </li>
+                <li>
+                    <a href="order.html"><i class="fa-solid fa-basket-shopping" style="color: chocolate;"> Order</i></a>
+                </li>
+                <li>
+                    <a href="about.html"><i class="fa-solid fa-circle-info" style="color: chocolate;"> About</i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="top_button">
+           
+            <button onclick="topFunction()" id = "topbutton"> Back To Top </button>
+        
+        </div>
+        
+        <h2>주문하기</h2>
+
+        <div class="container">
+            <form>
+                <label for="unaName">First Name: </label>
+                <input type="text" placeholder="First Name" id="unaName" required><br>
+                <label for="huliName">Last Name: </label>
+                <input type="text" placeholder="Last Name" id="huliName" required><br>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Email" id="email" required><br>
+                <label for="message">Message: </label>
+                <textarea type="text" placeholder="Enter Message" class="message"></textarea><br>
+                <label for="drink">Drink Type: </label><br>
+                <input type="radio" value="Coffee" id="Coffee">
+                <label for="Coffee">Coffee</label><br>
+                <input type="radio" value="Tea" id="Tea">
+                <label for="Tea">Tea</label><br>
+                <input type="radio" value="Shake" id="Shake">
+                <label for="Shake">Shake</label><br>
+                <label for="quantity">QUANTITY: </label>
+                <input type="number" placeholder="#" id="quantity" required><br>
+                <input type="submit" name="submit" value="Submit" id="submit" onclick="resultAlert()"><br>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,148 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFDD0;
+    background-image: url("https://cdn.homedit.com/wp-content/uploads/2019/05/A-Modern-Colombian-Coffee-Shop-2-1024x667.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+ul li
+{
+    display: inline-flex;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #F5F5DC;
+    position: absolute;
+    top: 0;
+    width: 99.5%;
+    text-align: center;
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: #D2B48C;
+}
+
+.topnav a:hover
+{
+    background-color: #b7410e;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+    color: white;
+}
+
+
+.container
+{
+    background-color: #e8e4c9;
+    font-size: x-large;
+    height: 100px;
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container p
+{
+    float: center;
+}
+
+form
+{
+    background-color: brown;
+    padding-top: 100px;
+    border: 3px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+label
+{
+    font-size: x-large;
+    margin-left: 40px;
+    color: white;
+}
+
+input
+{
+    background-color: white;
+    margin-left: 40px;
+    border-color: #b8797e;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#submit
+{
+    width: 100px;
+    height: 50px;
+    background-color: #D6AD60;
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#submit:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#quantity
+{
+    width: 30px;
+}
+
+.messasge
+{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+}
+
+#topbutton
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 75px;
+    height: 75px;
+    border: none;
+    font-size: large;
+    background-color: #D6AD60;
+    color: chocolate;
+    opacity: 60%;
+    cursor: pointer;
+}

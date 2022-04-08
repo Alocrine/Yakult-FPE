@@ -1,0 +1,110 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFDD0;
+    background-image: url("https://cdn.homedit.com/wp-content/uploads/2019/05/A-Modern-Colombian-Coffee-Shop-2-1024x667.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+ul li
+{
+    display: inline-flex;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: #F5F5DC;
+    position: absolute;
+    top: 0;
+    width: 99.5%;
+    text-align: center;
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: #D2B48C;
+}
+
+.topnav a:hover
+{
+    background-color: #b7410e;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2.5cm;
+    color: white;
+}
+
+
+.container
+{
+    background-color: #e8e4c9;
+    font-size: x-large;
+    height: 100px;
+    padding-top: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.container p
+{
+    float: center;
+    display: flex;
+    justify-content: center
+}
+
+.chamomile p
+{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.green p
+{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.oolong p
+{  
+   font-weight: 700;
+   font-size: x-large; 
+}
+
+#topbutton
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 75px;
+    height: 75px;
+    border: none;
+    font-size: large;
+    background-color: #D6AD60;
+    color: chocolate;
+    opacity: 60%;
+    cursor: pointer;
+}
